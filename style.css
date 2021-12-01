@@ -136,7 +136,7 @@ body {
 .island{
     width: 100vw;
     height: 80vh;
-    background: url(island.png) center no-repeat;
+    background: url(https://cdn.glitch.me/25b6213a-d9a0-40e8-a0f3-a6a3f834a75d%2Ffloating-island-sketch.png?v=1638388953933) center no-repeat;
     background-size: contain;
     position: absolute;
     animation: float 6s ease-in-out infinite;
