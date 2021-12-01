@@ -1,0 +1,250 @@
+/******************************************************************************
+Stylesheet for The Crypto Cartel
+******************************************************************************/
+
+
+/* Basic page style resets */
+* {
+  box-sizing: border-box;
+}
+[hidden] {
+  display: none !important;
+}
+
+/* Placeholder Font */
+@font-face {
+  font-family: HK Grotesk;
+  src: url("https://cdn.glitch.me/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Regular.otf?v=1603136326027")
+    format("opentype");
+}
+
+@font-face {
+  font-family: HK Grotesk;
+  font-weight: bold;
+  src: url("https://cdn.glitch.me/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Bold.otf?v=1603136323437")
+    format("opentype");
+}
+
+/* BODY PROPERTIES */
+
+body {
+  font-family: HK Grotesk;
+  padding:0;
+  margin:0;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+/* SPACE ANIMATION */
+
+#dotContainer {
+    perspective: 3000px;
+    position: relative;
+    background: #000;
+    width:100vw;
+    height: 100vh;
+  }
+  
+.dot {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+/* LANDING */
+
+
+.landing {
+    width:100vw;
+    height:100vh;
+    background:black;
+    padding:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.links {
+	  position: absolute;
+ 	  top: 20px;
+      left: 40px;
+	  width:auto;
+	  height: auto;
+	  float:left;
+      z-index: 1;
+	  text-align: left;
+}
+
+.links h1{
+    margin-top: 10px;
+	font-size: 1.5vw;
+	  line-height: 1.25;
+	  border-radius: 10px;
+      background:black;
+      color:white;
+	  border: 2px solid white;
+	  padding: 1px 10px 2px 10px;
+      margin-right:0.5em;
+	  display: inline-block;
+}
+
+.links h1:hover { 
+	border: 2px dotted pink;
+    box-shadow: 5px 5px 10px pink;
+	color: pink;
+    background:black;
+}
+
+.nav {
+	  position: absolute;
+ 	  top: 20px;
+      right: 40px;
+	  width:auto;
+	  height: auto;
+      z-index: 1;
+	  float:right;
+	  text-align: left;
+}
+
+
+.nav h1{
+    margin-top: 10px;
+	  font-size: 1.5vw;
+	  line-height: 1.25;
+	  border-radius: 10px;
+    background:white;
+    color:black;
+	  border: 2px solid black;
+	  padding: 1px 10px 2px 10px;
+    margin-right:0.5em;
+	  display: inline-block;
+}
+
+.nav h1:hover {
+	border: 2px dotted pink;
+    box-shadow: 5px 5px 10px pink;
+	color: pink;
+    background:black;
+}
+
+/* FLOATING ISLAND */
+
+.island{
+    width: 100vw;
+    height: 80vh;
+    background: url(island.png) center no-repeat;
+    background-size: contain;
+    position: absolute;
+    animation: float 6s ease-in-out infinite;
+}
+
+/* ISLAND ANIMATION */
+@keyframes float{
+    0%{
+        transform: translateY(0vh);
+    }
+
+    25%{
+        transform: translateY(1.5vh);
+    }
+
+    50%{
+        transform: translateY(0vh);
+    }
+
+    75%{
+        transform: translateY(-1.5vh);
+    }
+
+    100%{
+        transform: translateY(0vh);
+    }
+}
+
+/* FOOTER */
+
+.footer{
+    width:100vw;
+    height:5vh;
+    padding:10px;
+    bottom:0;
+    position: absolute;
+    background:black;
+    border-top: 3.5px solid white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.footer h2 {
+  font-size:1vw;
+  color:white;
+  line-height: 100%;
+}
+
+
+/******************************************************************************
+Media Queries for Responsiveness
+******************************************************************************/
+
+/* For Mobile Portrait View */
+
+@media screen
+  and (max-device-width: 480px)
+  and (orientation: portrait){
+    
+     .links{
+        top: 55px;
+        left: 25px;
+    }
+    
+     .links h1{
+        font-size: 3.5vw;
+	      line-height: 1.25;
+    }
+    
+    .nav h1{
+        font-size: 3.5vw;
+	      line-height: 1.25;
+    }
+    
+    .footer h2{
+        font-size: 2vw;
+    }
+}
+    
+    
+    
+/* For Tablet View */
+
+@media screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px){
+   
+     .links{
+        top: 75px;
+        padding-right:10px;
+    }
+    
+    .links h1{
+        font-size: 3.5vw;
+	      line-height: 1.25;
+    }
+    
+    .nav h1{
+        font-size: 3.5vw;
+	      line-height: 1.25;
+    }
+
+    .footer h2{
+        font-size: 2vw;
+    }
+}
+
+/******************************************************************************
+End of Stylesheet for The Crypto Cartel
+******************************************************************************/
