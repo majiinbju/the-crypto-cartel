@@ -1,14 +1,3 @@
-/* Function to Smoothen the Scroll */
-
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
-        });
-    });
-});
 
 /* Space Particles in the Background */
 

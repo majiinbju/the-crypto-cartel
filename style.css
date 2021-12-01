@@ -173,8 +173,6 @@ body {
     padding:10px;
     bottom:0;
     position: absolute;
-    background:black;
-    border-top: 3.5px solid white;
     display:flex;
     justify-content:center;
     align-items:center;
