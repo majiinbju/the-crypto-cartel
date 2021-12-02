@@ -1,7 +1,12 @@
 /******************************************************************************
-Stylesheet for The Crypto Cartel
+                      Stylesheet for The Crypto Cartel
 ******************************************************************************/
 
+
+
+/******************************************************************************
+                          Universal Style Sheet
+******************************************************************************/
 
 /* Basic page style resets */
 * {
@@ -35,6 +40,75 @@ body {
   overflow-x: hidden;
 }
 
+/* Nav Bar Properties */
+
+.links {
+	  position: absolute;
+ 	  top: 20px;
+    left: 40px;
+	  width:auto;
+	  height: auto;
+	  float:left;
+    z-index: 1;
+	  text-align: left;
+}
+
+.links h1{
+    margin-top: 10px;
+	  font-size: 1.5vw;
+	  line-height: 1.25;
+	  border-radius: 10px;
+    background:black;
+    color:white;
+	  border: 2px solid white;
+	  padding: 1px 10px 2px 10px;
+    margin-right:0.5em;
+	  display: inline-block;
+}
+
+.links h1:hover { 
+	  border: 2px dotted pink;
+    box-shadow: 5px 5px 10px pink;
+	  color: pink;
+    background:black;
+}
+
+.nav {
+	  position: absolute;
+ 	  top: 20px;
+    right: 40px;
+	  width:auto;
+	  height: auto;
+    z-index: 1;
+	  float:right;
+	  text-align: left;
+}
+
+
+.nav h1{
+    margin-top: 10px;
+	  font-size: 1.5vw;
+	  line-height: 1.25;
+	  border-radius: 10px;
+    background:white;
+    color:black;
+	  border: 2px solid black;
+	  padding: 1px 10px 2px 10px;
+    margin-right:0.5em;
+	  display: inline-block;
+}
+
+.nav h1:hover {
+	  border: 2px dotted pink;
+    box-shadow: 5px 5px 10px pink;
+	  color: pink;
+    background:black;
+}
+
+/******************************************************************************
+                                Landing Page
+******************************************************************************/
+
 /* SPACE ANIMATION */
 
 #dotContainer {
@@ -67,70 +141,6 @@ body {
     justify-content: center;
 }
 
-
-.links {
-	  position: absolute;
- 	  top: 20px;
-      left: 40px;
-	  width:auto;
-	  height: auto;
-	  float:left;
-      z-index: 1;
-	  text-align: left;
-}
-
-.links h1{
-    margin-top: 10px;
-	font-size: 1.5vw;
-	  line-height: 1.25;
-	  border-radius: 10px;
-      background:black;
-      color:white;
-	  border: 2px solid white;
-	  padding: 1px 10px 2px 10px;
-      margin-right:0.5em;
-	  display: inline-block;
-}
-
-.links h1:hover { 
-	border: 2px dotted pink;
-    box-shadow: 5px 5px 10px pink;
-	color: pink;
-    background:black;
-}
-
-.nav {
-	  position: absolute;
- 	  top: 20px;
-      right: 40px;
-	  width:auto;
-	  height: auto;
-      z-index: 1;
-	  float:right;
-	  text-align: left;
-}
-
-
-.nav h1{
-    margin-top: 10px;
-	  font-size: 1.5vw;
-	  line-height: 1.25;
-	  border-radius: 10px;
-    background:white;
-    color:black;
-	  border: 2px solid black;
-	  padding: 1px 10px 2px 10px;
-    margin-right:0.5em;
-	  display: inline-block;
-}
-
-.nav h1:hover {
-	border: 2px dotted pink;
-    box-shadow: 5px 5px 10px pink;
-	color: pink;
-    background:black;
-}
-
 /* FLOATING ISLAND */
 
 .island{
@@ -145,7 +155,7 @@ body {
 /* ISLAND ANIMATION */
 @keyframes float{
     0%{
-        transform: translateY(0vh);
+        transform: translateY(0);
     }
 
     25%{
@@ -153,19 +163,18 @@ body {
     }
 
     50%{
-        transform: translateY(0vh);
+        transform: translateY(0);
     }
-
-    75%{
-        transform: translateY(-1.5vh);
-    }
-
+  
     100%{
-        transform: translateY(0vh);
+        transform: translateY(0);
     }
+
 }
 
-/* FOOTER */
+/******************************************************************************
+                                  Footer
+******************************************************************************/
 
 .footer{
     width:100vw;
@@ -179,9 +188,9 @@ body {
 }
 
 .footer h2 {
-  font-size:1vw;
-  color:white;
-  line-height: 100%;
+    font-size:1vw;
+    color:white;
+    line-height: 100%;
 }
 
 
@@ -244,5 +253,5 @@ Media Queries for Responsiveness
 }
 
 /******************************************************************************
-End of Stylesheet for The Crypto Cartel
+                  End of Stylesheet for The Crypto Cartel
 ******************************************************************************/
