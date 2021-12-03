@@ -34,8 +34,8 @@
 
 body {
   font-family: HK Grotesk;
-  padding:0;
-  margin:0;
+  padding: 0;
+  margin: 0;
   overflow-y: hidden;
   overflow-x: hidden;
 }
@@ -45,38 +45,57 @@ body {
 ******************************************************************************/
 
 .header{
-    width:100vw;
-    height:5vh;
-    background-color:blue;
-    borde
-    padding:10px;
-    top:0;
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+    border-bottom: 3.5px solid gold;
+    padding: 10px;
+    top: 0;
     position: absolute;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    z-index:2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
 }
 
+/* Logo + Wordmark */
+
+.logo-container{
+  left: 1vw;
+  height: 70%;
+  width: 20%;
+  position: absolute;
+  background: blue;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo{
+  padding: 0.5vw;
+  height: 100%;
+  width: 15%;
+  position: absolute;
+  background: red;
+}
 
 /******************************************************************************
                                   Footer
 ******************************************************************************/
 
 .footer{
-    width:100vw;
-    height:5vh;
-    padding:10px;
-    bottom:0;
+    width: 100vw;
+    height: 5vh;
+    padding: 10px;
+    bottom: 0;
     position: absolute;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer h2 {
-    font-size:1vw;
-    color:white;
+    font-size: 1vw;
+    color: white;
     line-height: 100%;
 }
 
@@ -155,7 +174,7 @@ body {
     perspective: 3000px;
     position: relative;
     background: #000;
-    width:100vw;
+    width: 100vw;
     height: 100vh;
   }
   
@@ -172,10 +191,10 @@ body {
 
 
 .landing {
-    width:100vw;
-    height:100vh;
-    background:black;
-    padding:0;
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    padding: 0;
     display: flex;
     align-items: center;
     justify-content: center;
