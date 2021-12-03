@@ -200,7 +200,7 @@ body{
   border-image-slice: 1;
 }
 
-.classic-textbox{
+.classic-text{
   width: 50vw;
   height: 100vh;
   left:0;
@@ -210,6 +210,116 @@ body{
   align-items: center;
   position: absolute;
 }
+
+
+.classic-text-box{
+  width: 650px;
+  height: 500px;
+  position: absolute;
+}
+
+.classic-title-box{
+  width: 100%;
+  height: 30%;
+  padding: 1rem;
+  position: absolute;
+  top: 0;
+  border: 3px solid transparent;
+  border-top:0;
+  border-left:0;
+  border-right:0;
+  border-image: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+  border-image-slice: 1;
+  display: flex;
+  align-items: center;
+  
+}
+
+.classic-title-box h1{
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 48px;
+  line-height: 100%;
+  color: white;
+}
+
+.classic-info-box{
+  width: 100%;
+  height: 60%;
+  position: absolute;
+  bottom: 10%;
+}
+
+.classic-info-box span{
+  padding: 1rem;
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  color: white;
+  position: absolute;
+}
+
+.classic-genesis{
+  width: 100%;
+  height: 10%;
+  position: absolute;
+  bottom: 0;
+}
+
+/* Join Discord Button */
+
+.classic-genesis button {
+  font-family: HK Grotesk;
+  z-index: 3;
+  padding: 1rem;
+  background-color: black;
+  border-radius: 20px;
+  font-size: 1rem;
+  line-height: 1.25;
+  color: white;
+  margin-right:0.5em;
+  cursor: pointer;
+  display: inline-block;
+  transform: scale(0.95);
+  transition: transform 0.2s ease-in-out;
+}
+
+.classic-genesis button:hover {
+  transform: scale(1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.join-genesis-button {
+  --border-width: 2px;
+  --border-radius: 20px;
+  background: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+  border: 0;
+  padding: 0.2vw;
+  position: relative;
+  border-radius: var(--border-radius);
+  z-index: 1;
+}
+
+.join-genesis-button::before{
+  content: "";
+  display: block;
+  height: calc(100% - calc(var(--border-width) * 2));
+  width: calc(100% - calc(var(--border-width) * 2));
+  background: #010101;
+  position: absolute;
+  top: var(--border-width);
+  left: var(--border-width);
+  border-radius: calc(var(--border-radius) - var(--border-width));
+  z-index: -1;
+}
+
+
+
+
+
+
+
+
+
 
 .classic-pfp{
   width: 50vw;
