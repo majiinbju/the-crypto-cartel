@@ -16,14 +16,21 @@ body{
   width: 100vw;
   height: 100vh;
   position: absolute;
-  background: url(https://cdn.glitch.me/25b6213a-d9a0-40e8-a0f3-a6a3f834a75d%2Fbanner.png?v=1638506266524) center no-repeat;
-  background-size: cover;
+  
   border: 3px solid transparent;
   border-top:0;
   border-left:0;
   border-right:0;
   border-image: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
   border-image-slice: 1;
+}
+
+.meta-mast-image{
+  width: 100vw;
+  height: 90vh;
+  position: absolute;
+  background: url(https://cdn.glitch.me/25b6213a-d9a0-40e8-a0f3-a6a3f834a75d%2Fbanner.png?v=1638506266524) center no-repeat;
+  background-size: contain;
 }
 
 /* Welcome Fold */
