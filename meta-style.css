@@ -94,6 +94,17 @@ body{
   align-items: center;
 }
 
+ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+li {
+    color: white;
+    list-style: none;
+}
+
 h1{
   font-family: 'Luckiest Guy', cursive;
   font-size: 48px;
@@ -263,13 +274,13 @@ button:hover {
 } */
 
 
-.classic-textbox{
+.classic-collection .text-box{
   height: 700px;
 }
 
-.classic-title-box{
+.classic-collection .title-box{
+  width:100%;
   height: 25%;
-  
 }
 
 .classic-info-box{
@@ -277,6 +288,7 @@ button:hover {
   height: 65%;
   position: absolute;
   bottom: 10%;
+  background: red;
   display: flex;
   flex-direction: column;
 }
@@ -285,7 +297,7 @@ button:hover {
   height: 30%;
 } 
 
-.join-genesis{
+.view-genesis{
   width: 100%;
   height: 10%;
   position: absolute;
