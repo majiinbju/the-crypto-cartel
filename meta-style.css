@@ -1,5 +1,5 @@
 /******************************************************************************
-                     🏝 Stylesheet for The Crypto Cartel 🏝
+            🏝 Stylesheet for The Crypto Cartel - MetaVilla 🏝
 ******************************************************************************/
 
 
@@ -15,22 +15,6 @@
 [hidden] {
   display: none !important;
 }
-
-/* VARIABLES */
-
-:root {
-  
-}
-
-/* body { background-color: var(--blue); } */
-
-/* TYPOGRAPHY */
-
-/* Luckiest Guy – Main Font */
-
-/* font-family: 'Luckiest Guy', cursive; */
-
-/* Placeholder Font */
 
 @font-face {
   font-family: HK Grotesk;
@@ -51,7 +35,6 @@ body {
   font-family: HK Grotesk;
   padding: 0;
   margin: 0;
-  overflow-y: hidden;
   overflow-x: hidden;
 }
 
@@ -274,8 +257,6 @@ body {
   transition: all 0.2s ease-in-out;
 }
 
-
-
 /******************************************************************************
                                   Footer
 ******************************************************************************/
@@ -299,107 +280,25 @@ body {
 }
 
 
-/*********************************************************************************************************  
-                          !!!! INDIVIDUAL STYLE SHEETS !!!!
-**********************************************************************************************************/
-
 
 /******************************************************************************
-                                LANDING PAGE
+                              METAVILLA PAGE
 ******************************************************************************/
 
-/* SPACE ANIMATION */
+/* Masthead */
 
-#dotContainer {
-    perspective: 3000px;
-    position: relative;
-    background: #010101;
-    width: 100vw;
-    height: 100vh;
-  }
-  
-.dot {
-    position: absolute;
-    width: 2px;
-    height: 2px;
-    background-color: #fff;
-    border-radius: 50%;
-    display: inline-block;
-  }
-
-/* LANDING */
-
-
-.landing {
-    width: 100vw;
-    height: 100vh;
-    background: black;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.meta-mast{
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background: url(https://cdn.glitch.me/25b6213a-d9a0-40e8-a0f3-a6a3f834a75d%2Fbanner.png?v=1638506266524) center no-repeat;
+  background-size: cover;
 }
 
-/* FLOATING ISLAND */
-
-.island{
-    width: 100vw;
-    height: 80vh;
-    background: url(https://cdn.glitch.me/25b6213a-d9a0-40e8-a0f3-a6a3f834a75d%2Ffloating-island-sketch-2.png?v=1638407352485) center no-repeat;
-    background-size: contain;
-    position: absolute;
-    animation: float 6s ease-in-out infinite;
+.meta-welcome{
+  width: 100vw;
+  height: 100vh;
+  top: 100vh;
+  background: red;
+  position: absolute;
 }
-
-/* ISLAND ANIMATION */
-
-@keyframes float{
-    0%{
-        transform: translateY(0);
-    }
-
-    50%{
-        transform: translateY(5%)
-    }
-  
-    100%{
-        transform: translateY(0);
-    }
-
-}
-
-
-/******************************************************************************
-                      Media Queries for Responsiveness
-******************************************************************************/
-
-/* For Mobile Portrait View */
-
-@media screen
-  and (max-device-width: 480px)
-  and (orientation: portrait){
-    
-     .button-container {
-      width: 30%;
-    }
-    
-    .button-container button {
-      font-size: 0.8rem;
-    }
-}
-    
-    
-    
-/* For Tablet View */
-
-@media screen
-  and (min-device-width: 768px)
-  and (max-device-width: 1024px){
-   
-    
-}
-
-/******************************************************************************
-                  End of Stylesheet for The Crypto Cartel
-******************************************************************************/
-
