@@ -15,18 +15,17 @@ body{
 
 .meta-mast{
   top: 7.5vh;
-/*   width: 100vw; */
-/*   height: 92.5vh;
+  height: 92.5vh;
   position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #010101; */
+  background: #010101;
 }
 
 .meta-mast-image{
   width: 100%;
-  height: 90%;
+  height: 80%;
   position: absolute;
   background: url(https://cdn.glitch.me/25b6213a-d9a0-40e8-a0f3-a6a3f834a75d%2Fbanner.png?v=1638506266524) center no-repeat;
   background-size: cover;
@@ -40,10 +39,7 @@ body{
   height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
   background: #010101;
-  border-image: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
-  border-image-slice: 1;
   position: absolute;
 }
 
@@ -194,7 +190,6 @@ button:hover {
 } */
 
 .welcome-title-box{
-  width: 100%;
   height: 20%;
 }
 
@@ -274,16 +269,8 @@ button:hover {
 }
 
 .classic-title-box{
-  width: 100%;
   height: 25%;
   
-}
-
-.classic-title-box h1{
-  font-family: 'Luckiest Guy', cursive;
-  font-size: 48px;
-  line-height: 100%;
-  color: white;
 }
 
 .classic-info-box{
@@ -296,15 +283,8 @@ button:hover {
 }
 
 .classic-info-box span{
-  padding: 1rem;
-  width: 100%;
   height: 30%;
-  font-size: 16px;
-  color: white;
-  position: absolute;
 } 
-
-
 
 .join-genesis{
   width: 100%;
