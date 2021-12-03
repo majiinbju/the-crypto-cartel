@@ -142,7 +142,6 @@ body {
   display: inline-block;
   transform: scale(0.95);
   transition: transform 0.2s ease-in-out;
-  animation: float 3.5s ease-in-out infinite;
 }
 
 .button-container button:hover {
@@ -232,7 +231,6 @@ body {
   transform: scale(0.95);
   opacity: 70%;
   transition: all 0.2s ease-in-out;
-  animation: float 3.5s ease-in-out infinite;
 }
 
 .discord:hover {
@@ -250,7 +248,6 @@ body {
   transform: scale(0.95);
   opacity: 70%;
   transition: all 0.2s ease-in-out;
-  animation: float 3.5s ease-in-out infinite;
 }
 
 .twitter:hover {
@@ -268,7 +265,6 @@ body {
   transform: scale(0.95);
   opacity: 70%;
   transition: all 0.2s ease-in-out;
-  animation: float 3.5s ease-in-out infinite;
 }
 
 .opensea:hover {
@@ -282,11 +278,10 @@ body {
 @keyframes float{
     0%{
         transform: translateY(0);
-        transform: translateX()
     }
 
     50%{
-        transform: translateY(5%)
+        transform: translateY(2.5%)
     }
   
     100%{
@@ -305,7 +300,7 @@ body {
     height: 3vh;
     padding: 10px;
     bottom: 0;
-    position: absolute;
+    position: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
