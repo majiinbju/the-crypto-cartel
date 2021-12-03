@@ -7,103 +7,8 @@ body{
 }
 
 /******************************************************************************
-                              METAVILLA PAGE
+                              Typography Styles
 ******************************************************************************/
-
-
-/* Masthead */
-
-.meta-mast{
-  top: 7.5vh;
-  height: 92.5vh;
-  position: absolute;
-  display: flex;
-  background: #010101;
-}
-
-.meta-mast-image{
-  width: 100%;
-  height: 85%;
-  bottom: 10vh;
-  position: absolute;
-  background: url(https://cdn.glitch.me/25b6213a-d9a0-40e8-a0f3-a6a3f834a75d%2Fbanner.png?v=1638506266524) center no-repeat;
-  background-size: cover;
-  background-color: #010101;
-}
-
-/* Container Styles */
-
-.container{
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #010101;
-  position: absolute;
-}
-
-.left-pane{
-  width: 50vw;
-  height: 100vh;
-  left:0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-}
-
-.right-pane{
-  width: 50vw;
-  height: 100vh;
-  right: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-}
-
-.pfp{
-  width: 600px;
-  height: 600px;
-  background: url(https://cdn.glitch.me/25b6213a-d9a0-40e8-a0f3-a6a3f834a75d%2Fcartel-dudes-gif.gif?v=1638508703631) center no-repeat;
-  background-size: contain;
-  position: absolute;
-  border: 3px solid transparent;
-  border-image: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
-  border-image-slice: 1;
-}
-
-.text-box{
-  width: 650px;
-  height: 500px;
-  position: absolute;
-}
-
-.title-box{
-  position: absolute;
-  top: 0;
-  border: 3px solid transparent;
-  border-top:0;
-  border-left:0;
-  border-right:0;
-  border-image: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
-  border-image-slice: 1;
-  display: flex;
-  padding: 1rem;
-  align-items: center;
-}
-
-ul {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-}
-
-li {
-    color: white;
-    list-style: none;
-}
 
 h1{
   font-family: 'Luckiest Guy', cursive;
@@ -166,13 +71,22 @@ button:hover {
 }
 
 
-/* Welcome Fold */
 
-.meta-welcome{
-  top: 100vh;
+/******************************************************************************
+                              Container Styles
+******************************************************************************/
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #010101;
+  position: absolute;
 }
 
-/* .pfp-scroll{
+.left-pane{
   width: 50vw;
   height: 100vh;
   left:0;
@@ -180,10 +94,9 @@ button:hover {
   justify-content: center;
   align-items: center;
   position: absolute;
-} */
+}
 
-/* 
-.welcome-text{
+.right-pane{
   width: 50vw;
   height: 100vh;
   right: 0;
@@ -191,13 +104,70 @@ button:hover {
   justify-content: center;
   align-items: center;
   position: absolute;
-} */
+}
 
-/* .welcome-text-box{
+.pfp{
+  width: 600px;
+  height: 600px;
+  background: url(https://cdn.glitch.me/25b6213a-d9a0-40e8-a0f3-a6a3f834a75d%2Fcartel-dudes-gif.gif?v=1638508703631) center no-repeat;
+  background-size: contain;
+  position: absolute;
+  border: 3px solid transparent;
+  border-image: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+  border-image-slice: 1;
+}
+
+.text-box{
   width: 650px;
   height: 500px;
   position: absolute;
-} */
+}
+
+.title-box{
+  position: absolute;
+  top: 0;
+  border: 3px solid transparent;
+  border-top:0;
+  border-left:0;
+  border-right:0;
+  border-image: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+  border-image-slice: 1;
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+}
+
+
+
+/******************************************************************************
+                                  Masthead
+******************************************************************************/
+
+.meta-mast{
+  top: 7.5vh;
+  height: 92.5vh;
+  position: absolute;
+  display: flex;
+  background: #010101;
+}
+
+.meta-mast-image{
+  width: 100%;
+  height: 85%;
+  bottom: 10vh;
+  position: absolute;
+  background: url(https://cdn.glitch.me/25b6213a-d9a0-40e8-a0f3-a6a3f834a75d%2Fbanner.png?v=1638506266524) center no-repeat;
+  background-size: cover;
+  background-color: #010101;
+}
+
+/******************************************************************************
+                              Welcome Fold Styles
+******************************************************************************/
+
+.meta-welcome{
+  top: 100vh;
+}
 
 .meta-welcome .title-box{
   height: 20%;
@@ -218,61 +188,13 @@ button:hover {
   bottom: 0;
 }
 
-/* Join Discord Button */
-
-/* .welcome-discord button {
-  font-family: HK Grotesk;
-  z-index: 3;
-  padding: 1rem;
-  background-color: black;
-  border-radius: 20px;
-  font-size: 1rem;
-  line-height: 1.25;
-  color: white;
-  margin-right:0.5em;
-  cursor: pointer;
-  display: inline-block;
-  transform: scale(0.95);
-  transition: transform 0.2s ease-in-out;
-}
-
-.welcome-discord button:hover {
-  transform: scale(1);
-  transition: transform 0.2s ease-in-out;
-} */
-
-
-
-/* Classic Collection Fold */
+/******************************************************************************
+                              Classic Collection Styles
+******************************************************************************/
 
 .classic-collection{
-/*   width: 100vw;
-  height: 100vh; */
   top: 200vh;
-/*   background-color: #010101;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  border-top:0;
-  border-left:0;
-  border-right:0;
-  border-image: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
-  border-image-slice: 1; */
 }
-/* 
-/* 
-.classic-text{
-  width: 50vw;
-  height: 100vh;
-  left:0;
-  display: flex;
-  margin-left: 0.75rem;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-} */
-
 
 .classic-collection .text-box{
   height: 700px;
@@ -288,7 +210,6 @@ button:hover {
   height: 65%;
   position: absolute;
   bottom: 10%;
-  background: red;
   display: flex;
   flex-direction: column;
 }
@@ -297,6 +218,18 @@ button:hover {
   height: 30%;
 } 
 
+.classic-info-box ul{
+    top: 30%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+.classic-info-box li {
+    color: white;
+}
+
+
 .view-genesis{
   width: 100%;
   height: 10%;
@@ -304,60 +237,3 @@ button:hover {
   bottom: 0;
 }
 
-/* Join Discord Button */
-
-/* .classic-genesis button {
-  font-family: HK Grotesk;
-  z-index: 3;
-  padding: 1rem;
-  background-color: black;
-  border-radius: 20px;
-  font-size: 1rem;
-  line-height: 1.25;
-  color: white;
-  margin-right:0.5em;
-  cursor: pointer;
-  display: inline-block;
-  transform: scale(0.95);
-  transition: transform 0.2s ease-in-out;
-}
-
-.classic-genesis button:hover {
-  transform: scale(1);
-  transition: transform 0.2s ease-in-out;
-}
-
-.join-genesis-button {
-  --border-width: 2px;
-  --border-radius: 20px;
-  background: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
-  border: 0;
-  padding: 0.2vw;
-  position: relative;
-  border-radius: var(--border-radius);
-  z-index: 1;
-}
-
-.join-genesis-button::before{
-  content: "";
-  display: block;
-  height: calc(100% - calc(var(--border-width) * 2));
-  width: calc(100% - calc(var(--border-width) * 2));
-  background: #010101;
-  position: absolute;
-  top: var(--border-width);
-  left: var(--border-width);
-  border-radius: calc(var(--border-radius) - var(--border-width));
-  z-index: -1;
-}
-
-.classic-pfp{
-  width: 50vw;
-  height: 100vh;
-  right: 0;
-  display: flex;
-  background: red;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-} */
