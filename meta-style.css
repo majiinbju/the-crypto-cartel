@@ -43,6 +43,11 @@ body{
   justify-content: center;
   align-items: center;
   position: absolute;
+  border-top:0;
+  border-left:0;
+  border-right:0;
+  border-image: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+  border-image-slice: 1;
 }
 
 .pfp-scroll{
@@ -174,4 +179,45 @@ body{
   left: var(--border-width);
   border-radius: calc(var(--border-radius) - var(--border-width));
   z-index: -1;
+}
+
+
+/* Classic Collection Fold */
+
+.classic-collection{
+  width: 100vw;
+  height: 100vh;
+  top: 200vh;
+  background-color: #010101;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  border-top:0;
+  border-left:0;
+  border-right:0;
+  border-image: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+  border-image-slice: 1;
+}
+
+.classic-textbox{
+  width: 50vw;
+  height: 100vh;
+  left:0;
+  display: flex;
+  background: blue;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.classic-pfp{
+  width: 50vw;
+  height: 100vh;
+  right: 0;
+  display: flex;
+  background: red;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
 }
