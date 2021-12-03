@@ -183,7 +183,7 @@ body {
   border: 1px solid #B69119;
   box-shadow: inset 0 1px 0 #E3BE46;
   background-size: 200% 200%;
-  transition: background 0.5s ease-in-out;
+  transition: background 2.5s ease-in-out;
 }
 
 .mint-gradient:hover {
@@ -199,7 +199,7 @@ body {
   box-shadow: inset 0 1px 0 #E3BE46;
   -webkit-box-shadow: inset 0 1px 0 #E3BE46;
   -moz-box-shadow: inset 0 1px 0 #E3BE46;
-  transition: background 0.5s ease-in-out;
+  transition: background 2.5s ease-in-out;
 }
 
 /* Socials Buttons */
