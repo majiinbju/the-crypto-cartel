@@ -50,8 +50,8 @@ body{
 }
 
 .pfp {
-  width: 750px;
-  height: 750px;
+  width: 800px;
+  height: 800px;
   background: url(https://cdn.glitch.me/25b6213a-d9a0-40e8-a0f3-a6a3f834a75d%2Fcartel-dudes-gif.gif?v=1638508703631) center no-repeat;
   background-size: contain;
   position: absolute;
@@ -68,7 +68,6 @@ body{
   justify-content: center;
   align-items: center;
   position: absolute;
-  background-color: yellow;
 }
 
 .welcome-text-box{
@@ -77,3 +76,31 @@ body{
   background: red;
   position: absolute;
 }
+
+.welcome-title-box{
+  width: 100%;
+  height: 20%;
+  padding: 1rem;
+  position: absolute;
+  top: 0;
+  background: green;
+  display: flex;
+  align-items: center;
+  
+}
+
+.welcome-title-box h1{
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 60px;
+  line-height: 100%;
+}
+
+.welcome-info-box{
+  width: 100%;
+  height: 80%;
+  padding: 1rem;
+  position: absolute;
+  bottom: 0;
+  background: blue;
+}
+
