@@ -11,8 +11,29 @@ body{
 ******************************************************************************/
 
 
+/* Masthead */
 
-/* Universal Stlyes */
+.meta-mast{
+  top: 7.5vh;
+/*   width: 100vw; */
+/*   height: 92.5vh;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #010101; */
+}
+
+.meta-mast-image{
+  width: 100%;
+  height: 90%;
+  position: absolute;
+  background: url(https://cdn.glitch.me/25b6213a-d9a0-40e8-a0f3-a6a3f834a75d%2Fbanner.png?v=1638506266524) center no-repeat;
+  background-size: cover;
+  background-color: #010101;
+}
+
+/* Container Styles */
 
 .container{
   width: 100vw;
@@ -36,46 +57,17 @@ body{
   position: absolute;
 }
 
-.right
-/* Masthead */
-
-.meta-mast{
-  top: 7.5vh;
-/*   width: 100vw; */
-/*   height: 92.5vh;
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #010101; */
-}
-
-.meta-mast-image{
-  width: 100%;
-  height: 90%;
-  position: absolute;
-  background: url(https://cdn.glitch.me/25b6213a-d9a0-40e8-a0f3-a6a3f834a75d%2Fbanner.png?v=1638506266524) center no-repeat;
-  background-size: cover;
-  background-color: #010101;
-}
-
-/* Welcome Fold */
-
-.meta-welcome{
-  top: 100vh;
-}
-
-.pfp-scroll{
+.right-pane{
   width: 50vw;
   height: 100vh;
-  left:0;
+  right: 0;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-itmes: center;
   position: absolute;
 }
 
-.pfp {
+.pfp{
   width: 600px;
   height: 600px;
   background: url(https://cdn.glitch.me/25b6213a-d9a0-40e8-a0f3-a6a3f834a75d%2Fcartel-dudes-gif.gif?v=1638508703631) center no-repeat;
@@ -86,6 +78,67 @@ body{
   border-image-slice: 1;
 }
 
+.text-box{
+  width: 650px;
+  height: 500px;
+  position: absolute;
+}
+
+
+h1{
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 48px;
+  line-height: 100%;
+  color: white;
+}
+
+span{
+  padding: 1rem;
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  color: white;
+  position: absolute;
+}
+
+button {
+  font-family: HK Grotesk;
+  z-index: 3;
+  padding: 1rem;
+  background-color: black;
+  border-radius: 20px;
+  font-size: 1rem;
+  line-height: 1.25;
+  color: white;
+  margin-right:0.5em;
+  cursor: pointer;
+  display: inline-block;
+  transform: scale(0.95);
+  transition: transform 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1);
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Welcome Fold */
+
+.meta-welcome{
+  top: 100vh;
+}
+
+/* .pfp-scroll{
+  width: 50vw;
+  height: 100vh;
+  left:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+} */
+
+/* 
 .welcome-text{
   width: 50vw;
   height: 100vh;
@@ -94,13 +147,13 @@ body{
   justify-content: center;
   align-items: center;
   position: absolute;
-}
+} */
 
-.welcome-text-box{
+/* .welcome-text-box{
   width: 650px;
   height: 500px;
   position: absolute;
-}
+} */
 
 .welcome-title-box{
   width: 100%;
@@ -116,14 +169,6 @@ body{
   border-image-slice: 1;
   display: flex;
   align-items: center;
-  
-}
-
-.welcome-title-box h1{
-  font-family: 'Luckiest Guy', cursive;
-  font-size: 48px;
-  line-height: 100%;
-  color: white;
 }
 
 .welcome-info-box{
@@ -133,14 +178,6 @@ body{
   bottom: 10%;
 }
 
-.welcome-info-box span{
-  padding: 1rem;
-  width: 100%;
-  height: 100%;
-  font-size: 16px;
-  color: white;
-  position: absolute;
-}
 
 .welcome-discord{
   width: 100%;
@@ -344,15 +381,6 @@ body{
   border-radius: calc(var(--border-radius) - var(--border-width));
   z-index: -1;
 }
-
-
-
-
-
-
-
-
-
 
 .classic-pfp{
   width: 50vw;
