@@ -10,17 +10,44 @@ body{
                               METAVILLA PAGE
 ******************************************************************************/
 
-/* Masthead */
 
-.meta-mast{
-  top: 7.5vh;
+
+/* Universal Stlyes */
+
+.container{
   width: 100vw;
-  height: 92.5vh;
-  position: absolute;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   background: #010101;
+  border-image: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+  border-image-slice: 1;
+  position: absolute;
+}
+
+.left-pane{
+  width: 50vw;
+  height: 100vh;
+  left:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.right
+/* Masthead */
+
+.meta-mast{
+  top: 7.5vh;
+/*   width: 100vw; */
+/*   height: 92.5vh;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #010101; */
 }
 
 .meta-mast-image{
@@ -35,19 +62,7 @@ body{
 /* Welcome Fold */
 
 .meta-welcome{
-  width: 100vw;
-  height: 100vh;
   top: 100vh;
-  background-color: #010101;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  border-top:0;
-  border-left:0;
-  border-right:0;
-  border-image: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
-  border-image-slice: 1;
 }
 
 .pfp-scroll{
