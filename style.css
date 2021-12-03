@@ -61,7 +61,7 @@ body {
 .header{
     width: 100vw;
     height: 7.5%;
-    background-color: black;
+    background-color: #0d0d0d;
     border: 3px solid transparent;
     border-top:0;
     border-left:0;
@@ -106,9 +106,9 @@ body {
     font-family: HK Grotesk;
     z-index: 3;
     padding: 0.2vw;
-    font-size: 1.5vw;
+    border-radius: 10px;
+    font-size: 1.8rem;
 	  line-height: 1.25;
-	  border-radius: 10px;
     color: white;
 	  padding: 1px 10px 2px 10px;
     margin-right:0.5em;
@@ -116,7 +116,10 @@ body {
 	  display: inline-block;
   }
 
+  /* Mint Button Gradient */
+
   .mint-gradient {
+    border:none;
     background: #D4AF37;
     background: linear-gradient(to bottom, #D4AF37 0%, #C5A028 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #D4AF37), color-stop(100%, #C5A028));
@@ -176,7 +179,7 @@ body {
 #dotContainer {
     perspective: 3000px;
     position: relative;
-    background: black;
+    background: #0d0d0d;
     width: 100vw;
     height: 100vh;
   }
