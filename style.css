@@ -226,7 +226,7 @@ body {
 .discord {
   width: 100%;
   height: 100%;
-  background: url(https://cdn.glitch.me/25b6213a-d9a0-40e8-a0f3-a6a3f834a75d%2Fdiscord-icon.svg?v=1638502992575) center no-repeat;
+  background: url(https://cdn.glitch.me/25b6213a-d9a0-40e8-a0f3-a6a3f834a75d%2Fdiscord-icon.svg?v=1638505020483) center no-repeat;
   background-size: 50%;
   cursor: pointer;
   transform: scale(0.95);
@@ -241,7 +241,7 @@ body {
 .twitter {
   width: 100%;
   height: 100%;
-  background: url(https://cdn.glitch.me/25b6213a-d9a0-40e8-a0f3-a6a3f834a75d%2Ftwitter-icon.svg?v=1638502995176) center no-repeat;
+  background: url(https://cdn.glitch.me/25b6213a-d9a0-40e8-a0f3-a6a3f834a75d%2Ftwitter-icon.svg?v=1638505022915) center no-repeat;
   background-size: 50%;
   cursor: pointer;
   transform: scale(0.95);
@@ -249,14 +249,14 @@ body {
 }
 
 .twitter:hover {
-  transform: scale(1);
+  transform: scale(1.1);
   transition: transform 0.2s ease-in-out;
 }
 
 .opensea {
   width: 100%;
   height: 100%;
-  background: url(https://cdn.glitch.me/25b6213a-d9a0-40e8-a0f3-a6a3f834a75d%2Fopensea-icon.svg?v=1638502991459) center no-repeat;
+  background: url(https://cdn.glitch.me/25b6213a-d9a0-40e8-a0f3-a6a3f834a75d%2Fopensea-icon.svg?v=1638505020177) center no-repeat;
   background-size: 50%;
   cursor: pointer;
   transform: scale(0.95);
@@ -264,7 +264,7 @@ body {
 }
 
 .opensea:hover {
-  transform: scale(1);
+  transform: scale(1.1);
   transition: transform 0.2s ease-in-out;
 }
 
