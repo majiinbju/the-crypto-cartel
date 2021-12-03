@@ -27,6 +27,7 @@ span{
 }
 
 button {
+  width: 100%;
   font-family: HK Grotesk;
   z-index: 3;
   background-color: black;
@@ -229,7 +230,6 @@ button:hover {
     color: white;
 }
 
-
 .view-genesis{
   width: 100%;
   height: 10%;
@@ -237,3 +237,95 @@ button:hover {
   bottom: 0;
 }
 
+/******************************************************************************
+                              Genesis Collection Styles
+******************************************************************************/
+
+.genesis-collection {
+  top: 300vh;
+}
+
+.genesis-collection .text-box{
+  height: 700px;
+}
+
+.genesis-collection .title-box{
+  width:100%;
+  height: 25%;
+}
+
+.genesis-info-box{
+  width: 100%;
+  height: 65%;
+  position: absolute;
+  bottom: 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+.genesis-info-box span{
+  height: 30%;
+} 
+
+.genesis-info-box ul{
+    top: 30%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+.genesis-info-box li {
+    color: white;
+}
+
+/******************************************************************************
+                              Legendary Collection Styles
+******************************************************************************/
+
+.legendary-collection {
+  top: 400vh;
+}
+
+.legendary-collection .text-box{
+  height: 700px;
+}
+
+.legendary-collection .title-box{
+  width:100%;
+  height: 25%;
+}
+
+.legendary-info-box{
+  width: 100%;
+  height: 65%;
+  position: absolute;
+  bottom: 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+.legendary-info-box span{
+  height: 30%;
+} 
+
+.legendary-info-box ul{
+    top: 30%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+.legendary-info-box li {
+    color: white;
+}
+
+.mint-now{
+  width: 100%;
+  height: 10%;
+  position: absolute;
+  bottom: 0;
+}
+
+.legendary-collection button {
+  background-color: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+}
