@@ -205,6 +205,7 @@ body{
   height: 100vh;
   left:0;
   display: flex;
+  margin-left: 0.75rem;
   justify-content: center;
   align-items: center;
   position: absolute;
