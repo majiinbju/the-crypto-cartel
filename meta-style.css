@@ -2,7 +2,54 @@
             🏝 Stylesheet for The Crypto Cartel - MetaVilla 🏝
 ******************************************************************************/
 
+/******************************************************************************
+                              METAVILLA PAGE
+******************************************************************************/
 
+/* Masthead */
+
+.meta-mast{
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background: url(https://cdn.glitch.me/25b6213a-d9a0-40e8-a0f3-a6a3f834a75d%2Fbanner.png?v=1638506266524) center no-repeat;
+  background-size: cover;
+  border: 3px solid transparent;
+  border-top:0;
+  border-left:0;
+  border-right:0;
+  border-image: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+  border-image-slice: 1;
+}
+
+/* Welcome Fold */
+
+.meta-welcome{
+  width: 100vw;
+  height: 100vh;
+  top: 100vh;
+  background-color: #010101;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.pfp-scroll{
+  width: 60vw;
+  height: 100vh;
+  left:0;
+  position: absolute;
+  background-color: blue;
+}
+
+.welcome-text{
+  width: 40vw;
+  height: 100vh;
+  right: 0;
+  position: absolute;
+  background-color: yellow;
+}
 
 /******************************************************************************
                             UNIVERSAL STYLE SHEET
@@ -61,7 +108,7 @@ body {
   border-image-slice: 1;
   padding: 10px;
   top: 0;
-  position: absolute;
+  position: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -266,7 +313,7 @@ body {
     height: 3vh;
     padding: 10px;
     bottom: 0;
-    position: absolute;
+    position: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -277,28 +324,4 @@ body {
     color: white;
     opacity: 90%;
     line-height: 100%;
-}
-
-
-
-/******************************************************************************
-                              METAVILLA PAGE
-******************************************************************************/
-
-/* Masthead */
-
-.meta-mast{
-  width: 100vw;
-  height: 100vh;
-  position: absolute;
-  background: url(https://cdn.glitch.me/25b6213a-d9a0-40e8-a0f3-a6a3f834a75d%2Fbanner.png?v=1638506266524) center no-repeat;
-  background-size: cover;
-}
-
-.meta-welcome{
-  width: 100vw;
-  height: 100vh;
-  top: 100vh;
-  background: red;
-  position: absolute;
 }
