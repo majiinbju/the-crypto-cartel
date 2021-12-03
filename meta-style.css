@@ -71,6 +71,29 @@ button:hover {
   z-index: -1;
 }
 
+.shine-styling {
+  --border-width: 2px;
+  --border-radius: 20px;
+  background: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+  border: 0;
+  padding: 1rem;
+  position: relative;
+  border-radius: var(--border-radius);
+  z-index: 1;
+}
+
+.shine-styling::before{
+  content: "";
+  display: block;
+  height: calc(100% - calc(var(--border-width) * 2));
+  width: calc(100% - calc(var(--border-width) * 2));
+  position: absolute;
+  top: var(--border-width);
+  left: var(--border-width);
+  border-radius: calc(var(--border-radius) - var(--border-width));
+  z-index: -1;
+}
+
 
 
 /******************************************************************************
@@ -110,7 +133,6 @@ button:hover {
 .pfp{
   width: 600px;
   height: 600px;
-  background: url(https://cdn.glitch.me/25b6213a-d9a0-40e8-a0f3-a6a3f834a75d%2Fcartel-dudes-gif.gif?v=1638508703631) center no-repeat;
   background-size: contain;
   position: absolute;
   border: 3px solid transparent;
@@ -187,6 +209,11 @@ button:hover {
   height: 10%;
   position: absolute;
   bottom: 0;
+}
+
+.meta-welcome .pfp {
+  background: url(https://cdn.glitch.me/25b6213a-d9a0-40e8-a0f3-a6a3f834a75d%2Fcartel-dudes-gif.gif?v=1638508703631) center no-repeat;
+  background-size: contain;
 }
 
 /******************************************************************************
