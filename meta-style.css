@@ -13,7 +13,7 @@ body{
 /* Masthead */
 
 .meta-mast{
-  top: 7.5%;
+  top: 7.5vh;
   width: 100vw;
   height: 92.5vh;
   position: absolute;
