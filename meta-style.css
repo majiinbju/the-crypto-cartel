@@ -152,17 +152,16 @@ button:hover {
 }
 
 .title-box{
-/*   position: absolute; */
-/*   top: 0; */
+  height: 20%;
+  display: flex;
+  padding: 1rem;
+  align-items: center;
   border: 3px solid transparent;
   border-top:0;
   border-left:0;
   border-right:0;
   border-image: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
   border-image-slice: 1;
-  display: flex;
-  padding: 1rem;
-  align-items: center;
 }
 
 
@@ -202,10 +201,8 @@ button:hover {
 }
 
 .meta-welcome .title-box{
-  height: 20%;
   width: 110%;
-  display: flex;
-  align-items: center;
+  height: 20%;
 }
 
 .meta-welcome-info-box{
@@ -215,8 +212,9 @@ button:hover {
   flex-direction: column;
 }
 
-.classic-info-box span{
+.meta-welcome-info-box span{
   display: inline-block;
+  padding-left: 0;
   width: 90%;
   height: 30%;
 }
@@ -252,27 +250,27 @@ button:hover {
   align-items: center;
 }
 
-.classic-info-box{
+.info-box{
   width: 100%;
   height: 80%;
   display: flex;
   flex-direction: column;
 }
 
-.classic-info-box span{
+.info-box span{
   display: inline-block;
   width: 90%;
   height: 30%;
 } 
 
-.classic-info-box ul{
-    display: block;
-    margin-top: 0;
+.info-box ul{
+  display: block;
+  margin-top: 0;
 }
 
-.classic-info-box li {
-    color: white;    
-    font-size: 14px;
+.info-box li {
+  color: white;    
+  font-size: 14px;
 }
 
 .view-genesis{
@@ -360,7 +358,6 @@ button:hover {
 .legendary-info-box ul{
     display: block;
     margin-top: 0;
-
 }
 
 .legendary-info-box li {
