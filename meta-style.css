@@ -315,9 +315,10 @@ button:hover {
   height: 5%;
 }
 
-.business-plan .point-box{
-  width: 80%;
-  hieght: 50%;
+.point-box{
+  width: 90%;
+  height: 40%;
+  background: blue;
   border: 3px solid transparent;
   border-top:0;
   border-right:0;
@@ -327,10 +328,12 @@ button:hover {
 
 .phase-container{
   width: 90%;
-  height: 25%;
-  background: red;
+  height: 30%;
+  background: gray;
   margin-bottom: 1em;
   display: flex; 
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
 }
 
@@ -346,6 +349,7 @@ button:hover {
   border: none;
   width: 90%;
   height: 10%;
+  padding: 0;
 }
 
 
