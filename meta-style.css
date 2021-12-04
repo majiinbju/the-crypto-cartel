@@ -17,7 +17,7 @@ h1{
   color: white;
 }
 
-span{
+p{
   padding: 1rem;
   display: inline-block;
   width: 90%;
@@ -235,7 +235,7 @@ button:hover {
 }
 
 
-.meta-welcome span{
+.meta-welcome p{
   padding-left: 0;
   height: 50%;
 }
@@ -352,6 +352,7 @@ button:hover {
   border-image-slice: 1;
   display: flex;
   align-items: flex-end;
+  justify-content: space-between;
   padding: 0;
 }
 
@@ -363,9 +364,8 @@ button:hover {
   padding: 1rem;
 }
 
-.point-container span{
-  width: 40%;
-  margin-bottom: 0;
-  right: 0;
+.point-container p {
+  width: 50%;
+  margin: 1rem;
 }
 
