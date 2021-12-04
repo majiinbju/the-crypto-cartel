@@ -363,3 +363,9 @@ button:hover {
   padding: 1rem;
 }
 
+.point-container span{
+  width: 40%;
+  margin-bottom: 0;
+  right: 0;
+}
+
