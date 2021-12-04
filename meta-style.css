@@ -21,9 +21,9 @@ span{
   padding: 1rem;
   width: 100%;
   height: 100%;
-  font-size: 14px;
+  font-size: 16px;
   color: white;
-  position: absolute;
+/*   position: absolute; */
 }
 
 button {
@@ -141,7 +141,7 @@ button:hover {
 }
 
 .text-box{
-  width: 650px;
+  width: 600px;
   height: 600px;
 /*   position: absolute; */
   display: flex;
@@ -321,34 +321,33 @@ button:hover {
 } */
 
 .legendary-collection .title-box{
+  height: 15%;
   width: 100%;
-  height: 20%;
-  background: blue;
+  display: flex;
+  align-items: center;
 }
 
 .legendary-info-box{
   width: 100%;
   height: 80%;
-  background: yellow;
   display: flex;
   flex-direction: column;
 }
 
 .legendary-info-box span{
-  background: red;
-  background-opacity: 10%;
   display: inline-block;
   width: 90%;
-  height: 90%;
+  height: 30%;
 } 
 
 .legendary-info-box ul{
-    background: yellow;
+    display: block;
+
 }
 
 .legendary-info-box li {
-    color: white;
-    display: block;
+    color: white;    
+  font-size: 16px;
 }
 
 .mint-now{
