@@ -131,8 +131,8 @@ button:hover {
 }
 
 .pfp{
-  width: 600px;
-  height: 600px;
+  width: 450px;
+  height: 450px;
   background-size: contain;
   position: absolute;
   border: 3px solid transparent;
@@ -274,34 +274,36 @@ button:hover {
 .genesis-collection {
   top: 300vh;
 }
-/* 
+
 .genesis-collection .text-box{
-  height: 700px;
-} */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .genesis-collection .title-box{
-  width:100%;
-  height: 20%;
+  height: 15%;
+  width: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .genesis-info-box{
   width: 100%;
-  height: 70%;
-  position: absolute;
-  bottom: 10%;
+  height: 80%;
   display: flex;
   flex-direction: column;
 }
 
 .genesis-info-box span{
-  height: 30%;
+  display: inline-block;
+  width: 90%;
+  height: 40%;
 } 
 
 .genesis-info-box ul{
-    top: 30%;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
+    display: block;
+    margin-top: 0;
 }
 
 .genesis-info-box li {
@@ -354,6 +356,7 @@ button:hover {
 }
 
 .mint-now{
+  width: 40%;
 }
 
 .legendary-collection button {
