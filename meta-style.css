@@ -230,29 +230,15 @@ button:hover {
   top: 100vh;
 }
 
-.meta-welcome .text-box{
-  display: flex;
-}
-
 .meta-welcome .title-box{
   width: 110%;
   height: 15%;
 }
 
-.meta-welcome-info-box{
-  width: 100%;
-  height: 80%;
-  display: flex;
-  flex-direction: column;
-}
-
-.meta-welcome-info-box span{
-  display: inline-block;
+.meta-welcome span{
   padding-left: 0;
-  width: 90%;
-  height: 30%;
+  height: 40%;
 }
-
 
 .meta-welcome-discord{
   width: 55%;
@@ -298,13 +284,6 @@ button:hover {
   align-items: center;
   justify-content: center;
 }
-
-
-.genesis-collection span{
-  display: inline-block;
-  width: 90%;
-  height: 40%;
-} 
 
 .genesis-collection .title-box{
   height: 15%;
