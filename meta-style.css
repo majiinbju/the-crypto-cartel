@@ -226,45 +226,45 @@ button:hover {
 .classic-collection{
   top: 200vh;
 }
-/* 
+
 .classic-collection .text-box{
-  height: 650px;
-} */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .classic-collection .title-box{
-  width:100%;
-  height: 20%;
+  height: 15%;
+  width: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .classic-info-box{
   width: 100%;
-  height: 70%;
-  position: absolute;
-  bottom: 10%;
+  height: 80%;
   display: flex;
   flex-direction: column;
 }
 
 .classic-info-box span{
+  display: inline-block;
+  width: 90%;
   height: 30%;
 } 
 
 .classic-info-box ul{
-    top: 30%;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
+    display: block;
+    margin-top: 0;
 }
 
 .classic-info-box li {
-    color: white;
+    color: white;    
+    font-size: 14px;
 }
 
 .view-genesis{
-  width: 100%;
-  height: 10%;
-  position: absolute;
-  bottom: 0;
+  width: 55%;
 }
 
 /******************************************************************************
@@ -307,7 +307,8 @@ button:hover {
 }
 
 .genesis-info-box li {
-    color: white;
+    color: white;    
+    font-size: 14px;
 }
 
 /******************************************************************************
@@ -356,7 +357,7 @@ button:hover {
 }
 
 .mint-now{
-  width: 40%;
+  width: 55%;
 }
 
 .legendary-collection button {
