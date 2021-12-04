@@ -153,12 +153,12 @@ button:hover {
   height: 40%;
 } 
 
-.info-box ul{
+ul{
   display: block;
   margin-top: 0;
 }
 
-.info-box li {
+li {
   color: white;    
   font-size: 14px;
 }
@@ -186,7 +186,8 @@ button:hover {
 }
 
 .title-box{
-  height: 20%;
+  height: 15%;
+  width: 100%;
   display: flex;
   padding: 1rem;
   align-items: center;
@@ -254,20 +255,6 @@ button:hover {
   top: 200vh;
 }
 
-.classic-collection .text-box{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.classic-collection .title-box{
-  height: 15%;
-  width: 100%;
-  display: flex;
-  align-items: center;
-}
-
-
 /******************************************************************************
                               Genesis Collection Styles
 ******************************************************************************/
@@ -276,18 +263,6 @@ button:hover {
   top: 300vh;
 }
 
-.genesis-collection .text-box{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.genesis-collection .title-box{
-  height: 15%;
-  width: 100%;
-  display: flex;
-  align-items: center;
-}
 
 /******************************************************************************
                               Legendary Collection Styles
@@ -296,42 +271,13 @@ button:hover {
 .legendary-collection {
   top: 400vh;
 }
-
-.legendary-collection .text-box{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.legendary-collection .title-box{
-  height: 15%;
-  width: 100%;
-  display: flex;
-  align-items: center;
-}
-
+/* 
 .legendary-info-box{
   width: 100%;
   height: 80%;
   display: flex;
   flex-direction: column;
-}
-
-.legendary-info-box span{
-  display: inline-block;
-  width: 90%;
-  height: 40%;
-} 
-
-.legendary-info-box ul{
-    display: block;
-    margin-top: 0;
-}
-
-.legendary-info-box li {
-    color: white;    
-    font-size: 14px;
-}
+} */
 
 .mint-now{
   width: 55%;
