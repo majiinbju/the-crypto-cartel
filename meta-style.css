@@ -287,7 +287,19 @@ button:hover {
   height: 85%;
   bottom: 10vh;
   position: absolute;
-  background: url(https://cdn.glitch.me/25b6213a-d9a0-40e8-a0f3-a6a3f834a75d%2Fbanner.png?v=1638506266524) center no-repeat;
+  background: url(https://cdn.glitch.me/25b6213a-d9a0-40e8-a0f3-a6a3f834a75d%2Fcasino.gif?v=1638648952431) center no-repeat;
   background-size: cover;
   background-color: #010101;
+}
+
+/******************************************************************************
+                              Business Plan styles
+******************************************************************************/
+
+.business-plan {
+  top: 600vh;
+}
+
+.business-plan .container {
+  height: 200vh;
 }
