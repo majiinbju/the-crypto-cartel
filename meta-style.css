@@ -306,7 +306,7 @@ button:hover {
 
 .business-plan {
   top: 600vh;
-  height: 210vh;
+  height: 250vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -364,11 +364,10 @@ button:hover {
 
 .point-container h2{
   font-family: HK Grotesk;
-  font-size: 30px;
+  font-size: 24px;
   margin-bottom: 0;
   color: white;
   padding: 1rem;
-  font-weight: normal;
 }
 
 .point-container p{
@@ -377,3 +376,20 @@ button:hover {
   margin-right: 1rem;
 }
 
+/******************************************************************************
+                                    Second Masthead
+******************************************************************************/
+
+.third-mast {
+  top: 850vh;
+}
+
+.third-mast .masthead{
+  width: 100%;
+  height: 85%;
+  bottom: 10vh;
+  position: absolute;
+  background: url(https://cdn.glitch.me/25b6213a-d9a0-40e8-a0f3-a6a3f834a75d%2Fbanner.png?v=1638506266524) center no-repeat;
+  background-size: cover;
+  background-color: #010101;
+}
