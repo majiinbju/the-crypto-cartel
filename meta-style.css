@@ -435,4 +435,5 @@ button:hover {
 
 .faq {
   top: 950vh;
+  flex-direction: column;
 }
