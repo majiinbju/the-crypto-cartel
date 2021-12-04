@@ -336,18 +336,19 @@ button:hover {
 
 .legendary-info-box span{
   background: red;
-  height: 100%;
+  background-opacity: 10%;
+  display: inline-block;
+  width: 90%;
+  height: 90%;
 } 
 
 .legendary-info-box ul{
-    top: 30%;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
+    background: yellow;
 }
 
 .legendary-info-box li {
     color: white;
+    display: block;
 }
 
 .mint-now{
