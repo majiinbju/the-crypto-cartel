@@ -372,8 +372,9 @@ button:hover {
   padding: 1rem;
 }
 
-.point-container span{
-  width: 50%;
-  height: 100%;;
+.point-container p{
+  width: 40%;
+  color: white;
+  margin-right: 1rem;
 }
 
