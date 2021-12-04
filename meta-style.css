@@ -257,12 +257,24 @@ button:hover {
   top: 200vh;
 }
 
+.classic-collection .pfp {
+  background: url(https://cdn.glitch.me/25b6213a-d9a0-40e8-a0f3-a6a3f834a75d%2Fclassic-collection.png?v=1638659591074) center no-repeat;
+  background-color: #010101;
+  background-size: contain;
+}
+
 /******************************************************************************
                               Genesis Collection Styles
 ******************************************************************************/
 
 .genesis-collection {
   top: 300vh;
+}
+
+.genesis-collection .pfp {
+  background: url(https://cdn.glitch.me/25b6213a-d9a0-40e8-a0f3-a6a3f834a75d%2Fgenesis-collection.png?v=1638659412285) center no-repeat;
+  background-color: #010101;
+  background-size: contain;
 }
 
 
@@ -274,6 +286,11 @@ button:hover {
   top: 400vh;
 }
 
+.legendary-collection .pfp {
+  background: url(https://cdn.glitch.me/25b6213a-d9a0-40e8-a0f3-a6a3f834a75d%2Flegendary-collection.png?v=1638659409931) center no-repeat;
+  background-color: #010101;
+  background-size: contain;
+}
 
 /******************************************************************************
                                     Second Masthead
