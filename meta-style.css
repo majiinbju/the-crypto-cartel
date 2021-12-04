@@ -235,13 +235,10 @@ button:hover {
   height: 15%;
 }
 
+
 .meta-welcome span{
   padding-left: 0;
-  height: 40%;
-}
-
-.meta-welcome-discord{
-  width: 55%;
+  height: 50%;
 }
 
 .meta-welcome .pfp {
