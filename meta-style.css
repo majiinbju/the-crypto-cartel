@@ -306,7 +306,7 @@ button:hover {
 
 .business-plan {
   top: 600vh;
-  height: 200vh;
+  height: 210vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -326,7 +326,6 @@ button:hover {
 .phase-container{
   width: 90%;
   height: 30%;
-  background: gray;
   margin-bottom: 1em;
   display: flex; 
   flex-direction: column;
@@ -352,7 +351,6 @@ button:hover {
 .point-container{
   width: 90%;
   height: 40%;
-  background: blue;
   border: 3px solid transparent;
   border-top:0;
   border-right:0;
@@ -367,9 +365,10 @@ button:hover {
 .point-container h2{
   font-family: HK Grotesk;
   font-size: 30px;
-  color: white;
   margin-bottom: 0;
+  color: white;
   padding: 1rem;
+  font-weight: normal;
 }
 
 .point-container p{
