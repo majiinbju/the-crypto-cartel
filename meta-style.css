@@ -140,6 +140,40 @@ button:hover {
   border-image-slice: 1;
 }
 
+.info-box{
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.info-box span{
+  display: inline-block;
+  width: 90%;
+  height: 40%;
+} 
+
+.info-box ul{
+  display: block;
+  margin-top: 0;
+}
+
+.info-box li {
+  color: white;    
+  font-size: 14px;
+}
+
+.info-box{
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.view-genesis{
+  width: 55%;
+}
+
 .text-box{
   width: 500px;
   height: 500px;
@@ -202,7 +236,7 @@ button:hover {
 
 .meta-welcome .title-box{
   width: 110%;
-  height: 20%;
+  height: 15%;
 }
 
 .meta-welcome-info-box{
@@ -250,32 +284,6 @@ button:hover {
   align-items: center;
 }
 
-.info-box{
-  width: 100%;
-  height: 80%;
-  display: flex;
-  flex-direction: column;
-}
-
-.info-box span{
-  display: inline-block;
-  width: 90%;
-  height: 30%;
-} 
-
-.info-box ul{
-  display: block;
-  margin-top: 0;
-}
-
-.info-box li {
-  color: white;    
-  font-size: 14px;
-}
-
-.view-genesis{
-  width: 55%;
-}
 
 /******************************************************************************
                               Genesis Collection Styles
@@ -291,34 +299,18 @@ button:hover {
   justify-content: center;
 }
 
-.genesis-collection .title-box{
-  height: 15%;
-  width: 100%;
-  display: flex;
-  align-items: center;
-}
 
-.genesis-info-box{
-  width: 100%;
-  height: 80%;
-  display: flex;
-  flex-direction: column;
-}
-
-.genesis-info-box span{
+.genesis-collection span{
   display: inline-block;
   width: 90%;
   height: 40%;
 } 
 
-.genesis-info-box ul{
-    display: block;
-    margin-top: 0;
-}
-
-.genesis-info-box li {
-    color: white;    
-    font-size: 14px;
+.genesis-collection .title-box{
+  height: 15%;
+  width: 100%;
+  display: flex;
+  align-items: center;
 }
 
 /******************************************************************************
