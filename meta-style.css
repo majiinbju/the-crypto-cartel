@@ -195,23 +195,35 @@ button:hover {
   top: 100vh;
 }
 
+.meta-welcome .text-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .meta-welcome .title-box{
   height: 20%;
+  width: 100%;
+  display: flex;
+  align-items: center;
 }
 
-.welcome-info-box{
+.meta-welcome-info-box{
   width: 100%;
-  height: 70%;
-  position: absolute;
-  bottom: 10%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.classic-info-box span{
+  display: inline-block;
+  width: 90%;
+  height: 30%;
 }
 
 
-.welcome-discord{
-  width: 100%;
-  height: 10%;
-  position: absolute;
-  bottom: 0;
+.meta-welcome-discord{
+  width: 55%;
 }
 
 .meta-welcome .pfp {
