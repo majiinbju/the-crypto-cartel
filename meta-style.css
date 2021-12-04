@@ -19,11 +19,21 @@ h1{
 
 span{
   padding: 1rem;
-  width: 100%;
-  height: 100%;
+  display: inline-block;
+  width: 90%;
+  height: 40%;
   font-size: 14px;
   color: white;
-/*   position: absolute; */
+}
+
+ul{
+  display: block;
+  margin-top: 0;
+}
+
+li {
+  color: white;    
+  font-size: 14px;
 }
 
 button {
@@ -110,6 +120,16 @@ button:hover {
   position: absolute;
 }
 
+.masthead{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url() center no-repeat;
+  background-size: cover;
+  background-color: #010101;
+}
+
+
 .left-pane{
   width: 50vw;
   height: 100vh;
@@ -145,22 +165,6 @@ button:hover {
   height: 80%;
   display: flex;
   flex-direction: column;
-}
-
-.info-box span{
-  display: inline-block;
-  width: 90%;
-  height: 40%;
-} 
-
-ul{
-  display: block;
-  margin-top: 0;
-}
-
-li {
-  color: white;    
-  font-size: 14px;
 }
 
 .info-box{
@@ -205,16 +209,12 @@ li {
                                   Masthead
 ******************************************************************************/
 
-.meta-mast{
+.first-mast{
   top: 7.5vh;
   height: 92.5vh;
-  position: absolute;
-  display: flex;
-  background: #010101;
 }
 
-.meta-mast-image{
-  width: 100%;
+.first-mast .masthead{
   height: 85%;
   bottom: 10vh;
   position: absolute;
@@ -271,18 +271,15 @@ li {
 .legendary-collection {
   top: 400vh;
 }
-/* 
-.legendary-info-box{
-  width: 100%;
-  height: 80%;
-  display: flex;
-  flex-direction: column;
-} */
-
-.mint-now{
-  width: 55%;
-}
 
 .legendary-collection button {
   background-color: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+}
+
+/******************************************************************************
+                                    Second Masthead
+******************************************************************************/
+
+.second-mast {
+  top: 500vh;
 }
