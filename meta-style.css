@@ -306,8 +306,20 @@ button:hover {
 }
 
 .phase-container{
-  width: 80%;
+  width: 90%;
   height: 25%;
   background: red;
   margin-bottom: 1em;
+}
+
+.business-plan .title-box{
+  border: none;
+  background: yellow;
+  width: 90%;
+  height: 5%;
+  align-items: 
+}
+
+.business-plan h1{
+  font-size: 60px;
 }
