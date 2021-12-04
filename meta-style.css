@@ -305,21 +305,47 @@ button:hover {
   padding: 0;
 }
 
+.business-plan h1{
+  font-size: 60px;
+}
+
+.business-plan .title-box{
+  border: none;
+  width: 90%;
+  height: 5%;
+}
+
+.business-plan .point-box{
+  width: 80%;
+  hieght: 50%;
+  border: 3px solid transparent;
+  border-top:0;
+  border-right:0;
+  border-image: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+  border-image-slice: 1;
+}
+
 .phase-container{
   width: 90%;
   height: 25%;
   background: red;
   margin-bottom: 1em;
+  display: flex; 
+  justify-content: center;
 }
 
-.business-plan .title-box{
+
+.phase-container h1{
+  font-size: 30px;
+  background: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.phase-container .title-box{
   border: none;
-  background: yellow;
   width: 90%;
-  height: 5%;
-  align-items: 
+  height: 10%;
 }
 
-.business-plan h1{
-  font-size: 60px;
-}
+
