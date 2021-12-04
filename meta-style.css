@@ -17,7 +17,7 @@ h1{
   color: white;
 }
 
-p{
+span{
   padding: 1rem;
   display: inline-block;
   width: 90%;
@@ -28,8 +28,8 @@ p{
 
 ul{
   display: block;
-  margin-top: 0;
 }
+
 
 li {
   color: white;    
@@ -173,6 +173,10 @@ button:hover {
   flex-direction: column;
 }
 
+.info-box ul{
+  padding-left: 0.75rem;
+}
+
 .view-genesis{
   width: 55%;
 }
@@ -235,7 +239,7 @@ button:hover {
 }
 
 
-.meta-welcome p{
+.meta-welcome span{
   padding-left: 0;
   height: 50%;
 }
@@ -268,6 +272,10 @@ button:hover {
 
 .legendary-collection {
   top: 400vh;
+}
+
+.legendary-collection ul{
+  padding-left: 1.5rem;
 }
 
 .legendary-collection button {
@@ -364,8 +372,8 @@ button:hover {
   padding: 1rem;
 }
 
-.point-container p {
+.point-container span{
   width: 50%;
-  margin: 1rem;
+  height: 100%;;
 }
 
