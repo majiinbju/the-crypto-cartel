@@ -299,12 +299,15 @@ button:hover {
 .business-plan {
   top: 600vh;
   height: 200vh;
-  flex-direction: column;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
 }
 
 .phase-container{
   width: 80%;
-  height: 20%;
+  height: 25%;
   background: red;
+  margin-bottom: 1em;
 }
