@@ -12,7 +12,7 @@ body{
 
 h1{
   font-family: 'Luckiest Guy', cursive;
-  font-size: 48px;
+  font-size: 36px;
   line-height: 100%;
   color: white;
 }
@@ -21,7 +21,7 @@ span{
   padding: 1rem;
   width: 100%;
   height: 100%;
-  font-size: 16px;
+  font-size: 14px;
   color: white;
   position: absolute;
 }
@@ -144,6 +144,8 @@ button:hover {
   width: 650px;
   height: 500px;
   position: absolute;
+  display: flex;
+  flex-direction: column;
 }
 
 .title-box{
@@ -223,19 +225,19 @@ button:hover {
 .classic-collection{
   top: 200vh;
 }
-
+/* 
 .classic-collection .text-box{
-  height: 700px;
-}
+  height: 650px;
+} */
 
 .classic-collection .title-box{
   width:100%;
-  height: 25%;
+  height: 20%;
 }
 
 .classic-info-box{
   width: 100%;
-  height: 65%;
+  height: 70%;
   position: absolute;
   bottom: 10%;
   display: flex;
@@ -271,19 +273,19 @@ button:hover {
 .genesis-collection {
   top: 300vh;
 }
-
+/* 
 .genesis-collection .text-box{
   height: 700px;
-}
+} */
 
 .genesis-collection .title-box{
   width:100%;
-  height: 25%;
+  height: 20%;
 }
 
 .genesis-info-box{
   width: 100%;
-  height: 65%;
+  height: 70%;
   position: absolute;
   bottom: 10%;
   display: flex;
@@ -312,21 +314,20 @@ button:hover {
 .legendary-collection {
   top: 400vh;
 }
-
+/* 
 .legendary-collection .text-box{
   height: 700px;
-}
+} */
 
 .legendary-collection .title-box{
-  width:100%;
-  height: 25%;
+  width: 100%;
+  height: 20%;
 }
 
 .legendary-info-box{
   width: 100%;
-  height: 65%;
+  height: 80%;
   position: absolute;
-  bottom: 10%;
   display: flex;
   flex-direction: column;
 }
@@ -347,9 +348,8 @@ button:hover {
 }
 
 .mint-now{
-  width: 100%;
-  height: 10%;
   position: absolute;
+  align-self: center;
   bottom: 0;
 }
 
