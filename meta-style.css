@@ -298,8 +298,13 @@ button:hover {
 
 .business-plan {
   top: 600vh;
+  height: 200vh;
+  flex-direction: column;
+  display: flex;
 }
 
-.business-plan .container {
-  height: 200vh;
+.phase-container{
+  width: 80%;
+  height: 20%;
+  background: red;
 }
