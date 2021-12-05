@@ -599,18 +599,20 @@ button:hover {
     font-size: 14px;
   }
   
+  .footer > h2 {
+    font-size: 14px;
+  }
+  
   .left-pane{
     bottom: 0;
     height: 50%;
     width: 100vw;
-    background: red;
   }
 
   .right-pane{
     top: 0;
     height: 50%;
     width: 100vw;
-    background: blue;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -619,7 +621,6 @@ button:hover {
   .text-box{
     width: 480px;
     height: 480px;
-    background: green;
     overflow: hidden;
   }
   
@@ -629,28 +630,33 @@ button:hover {
   
   
   .pfp {
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 350px;
   }
   
   .frame {
-    width: 275px;
-    height: 275px;
+    width: 375px;
+    height: 375px;
   }
     
   .meta-welcome{
     display: flex;
     flex-direction: column;
-    background: yellow;
-  }
-  
-  .meta-welcome > .right-pane {
-    bottom: 0;
-    position: absolute;
   }
   
   .meta-welcome .right-pane {
-    position: absolute;
+    bottom: 0;
+    position: relative;
+  }
+  
+  .meta-welcome .left-pane {
+    top: 0;
+    position: relative;
+  }
+  
+  .third-mast .masthead {
+    background-size: contain;
+    background-color: red;
   }
   
   
