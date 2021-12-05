@@ -21,15 +21,6 @@ for (let i = 0; i < shows.length; i++) {
   };
 }
 
-/* Navbar Expand */
-
-const toggleButton = document.getElementsByClassName('toggle-button')[0]
-const navbarLinks = document.getElementsByClassName('navbar-links')[0]
-
-toggleButton.addEventListener('click', () => {
-    navbarLinks.classList.toggle('active')
-})
-
 
 /* Space Particles in the Background */
 
@@ -76,3 +67,10 @@ $window.load(function() {
   dotContainer.height($window.height());
 });
 
+
+const toggleButton = document.getElementsByClassName('toggle-button')[0]
+const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+toggleButton.addEventListener('click', () => {
+    navbarLinks.classList.toggle('active')
+})
