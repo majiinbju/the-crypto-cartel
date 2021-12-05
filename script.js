@@ -1,20 +1,26 @@
-var snapScroll = $("header, section, footer").SnapScroll({
-				hashes:true
-			});
-			console.log(snapScroll);
 
-			//Listen for active element change
-			//You could listen globally like $(document)
-			$("header").on(snapScroll.eventChangeActive, function(evt, newActive){
-				console.log(evt, newActive);
-			});
-
-			//Listen for visible element change
-			//You could listen on a specific element like $("header")
-			$(document).on(snapScroll.eventChangeVisible, function(evt, visibleList){
-				console.log(evt, visibleList.data);
-			});
-
+    let scene, camera, renderer;
+    function init() {
+      //create scene object
+      scene = new THREE.Scene();
+      
+      //setup camera with facing upward
+      camera = new THREE.PerspectiveCamera(60,window.innerWidth / window.innerHeight, 1, 1000);
+      camera.position.z = 1;
+      camera.rotation.x = Math.PI/2;
+      
+      //setup renderer
+      renderer = new THREE.WebGLRenderer();
+      renderer.setSize(window.innerWidth, window.innerHeight);
+      document.body.appendChild(renderer.domElement);
+      animate(); 
+    }
+    //rendering loop
+    function animate() {
+      renderer.render(scene, camera);
+      requestAnimationFrame(animate);
+    }
+    init();
 
 /* FAQ Function */ 
 
@@ -80,9 +86,7 @@ $window.load(function() {
   
   getParticlesAnimation();
 
-}).resize(function() {
-  dotContainer.height($window.height());
-});
+})
 
 
 const toggleButton = document.getElementsByClassName('toggle-button')[0]
