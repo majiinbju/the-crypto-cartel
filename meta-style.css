@@ -182,6 +182,7 @@ button:hover {
 }
 
 .text-box{
+  overflow: hidden;
   width: 500px;
   height: 500px;
   display: flex;
@@ -590,50 +591,65 @@ button:hover {
 
 @media (max-width: 1000px){
   
-  .text-box{
-    width: 600px;
-    height: 300px;
+  h1{
+    font-size: 24px;
   }
   
-    .meta-welcome{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      background: yellow;
-    }
-    
+  span {
+    font-size: 14px;
+  }
+  
+  .left-pane{
+    top: 0;
+    height: 50%;
+    width: 100vw;
+    background: red;
+  }
+
+  .right-pane{
+    bottom: 0;
+    height: 50%;
+    width: 100vw;
+    background: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .text-box{
+    width: 450px;
+    height: 450px;
+    background: green;
+    overflow: hidden;
+    padding-left: 1rem;
+  }
+  
+  
   .pfp {
     width: 250px;
     height: 250px;
   }
   
   .frame {
-    width: 250px;
-    height: 250px;
+    width: 275px;
+    height: 275px;
+  }
+    
+  .meta-welcome{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: yellow;
   }
   
-    .left-pane{
-      top: 0;
-      height: 50%;
-      width: 100vw;
-      background: red;
-    }
-  
-    .right-pane{
-      align-self: flex-end;
-      height: 50%;
-      width: 100vw;
-      background: blue;
-    }
-
 }
+
 @media (max-width: 400px){
     .container{
         
     }
 }
+
 @media (max-width: 350px){
     .container{
          
