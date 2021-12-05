@@ -4,6 +4,7 @@
 
 body{
   overflow-y: scroll;
+  background: #010101;
 }
 /******************************************************************************
                               Typography Styles
@@ -448,12 +449,14 @@ button:hover {
 
 .faq {
   top: 1120vh;
-  flex-direction: column;display: flex;
+  flex-direction: column;
+  display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: space-evenly;
   padding: 0;
   margin: 0;
-  min-height: 250vh;
+  min-height: 120vh;
 }
 
 .faq h1{
@@ -474,7 +477,7 @@ button:hover {
 
 .questions-box{
   width: 90%;
-  height: 90%;
+  height: 100%;
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -571,7 +574,8 @@ button:hover {
 }
 
 .footer{
-  top: 1370vh;
+  top: 1240vh;
+  margin-top: 2rem;
   height: 10vh;
   background: #010101;
   border: 1px solid transparent;
@@ -698,7 +702,7 @@ button:hover {
   
   .accordion h2{
   font-family: HK Grotesk;
-  font-size: 30px;
+  font-size: 24px;
   margin-bottom: 0;
   color: white;
   font-weight: normal;
