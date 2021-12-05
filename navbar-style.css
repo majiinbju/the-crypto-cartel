@@ -47,7 +47,7 @@ body {
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: flex-end;
 }
 
 .navbar-links ul {
@@ -75,7 +75,7 @@ body {
 }
 
 .show{
-    display: inline-block;
+    display: block;
 }
 
 .logo-big {
@@ -169,7 +169,6 @@ body {
     right: 1rem;
     display: none;
     flex-direction: column;
-    justify-content: space-between;
     width: 30px;
     height: 20px;
 }
@@ -198,10 +197,6 @@ button {
 
     .show {
         display: none;
-    }
-
-    .toggle-button-container{
-        display: flex;
     }
 
     .toggle-button {
