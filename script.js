@@ -67,3 +67,12 @@ for (let i = 0; i < shows.length; i++) {
     else shows[i].innerHTML = "+";
   };
 }
+
+/* Navbar Expand */
+
+const toggleButton = document.getElementsByClassName('toggle-button')[0]
+const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+toggleButton.addEventListener('click', () => {
+    navbarLinks.classList.toggle('active')
+})
