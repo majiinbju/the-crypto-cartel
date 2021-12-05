@@ -198,6 +198,7 @@ button:hover {
   padding: 1rem;
   align-items: center;
   border: 3px solid transparent;
+  border-radius: 16px;
   border-top:0;
   border-left:0;
   border-right:0;
@@ -363,6 +364,7 @@ button:hover {
   flex-direction: column;
   position: absolute;
   border: 3px solid transparent;
+  border-radius: 16px;
   border-top:0;
   border-right:0;
   border-bottom:0;
@@ -399,6 +401,7 @@ button:hover {
   width: 90%;
   height: 40%;
   border: 3px solid transparent;
+  border-radius: 16px;
   border-top:0;
   border-right:0;
   border-image: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
@@ -484,6 +487,7 @@ button:hover {
     width: 90%;
     margin-top: 20px;
     border: 3px solid transparent;
+  border-radius: 16px;
     border-top:0;
     border-left:0;
     border-right:0;
