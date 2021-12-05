@@ -249,6 +249,14 @@ button:hover {
   background-size: contain;
 }
 
+.frame {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  background: url(https://cdn.glitch.me/25b6213a-d9a0-40e8-a0f3-a6a3f834a75d%2Fframe.png?v=1638663083223) center no-repeat;
+  background-size: contain;
+}
+
 /******************************************************************************
                               Classic Collection Styles
 ******************************************************************************/
