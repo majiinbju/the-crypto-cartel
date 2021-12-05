@@ -234,13 +234,17 @@ button:hover {
 }
 
 .meta-welcome .title-box{
-  width: 110%;
+  width: 105%;
   height: 15%;
 }
 
+.meta-welcome .info-box{
+  align-items: flex-start;
+}
 
 .meta-welcome span{
   padding-left: 0;
+  margin-left: 0;
   height: 50%;
 }
 
@@ -499,6 +503,7 @@ button:hover {
   font-size: 30px;
   margin-bottom: 0;
   color: white;
+  font-weight: normal;
   padding: 1rem;
 }
 
