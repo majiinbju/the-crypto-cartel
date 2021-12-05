@@ -501,6 +501,7 @@ button:hover {
     justify-content: space-between;
     padding: 4px 14px;
     position: relative;
+    overflow: hidden;
 }
 
 .accordion h2{
@@ -589,7 +590,16 @@ button:hover {
 
 /* Media Queries for Responsiveness */
 
-@media (max-width: 1000px){
+@media (max-width: 1200px){
+  
+  .container {
+    overflow: none;
+    height: 120vh;
+  }
+  
+  .first-mast .masthead {
+    background-size: cover;
+  }
   
   h1{
     font-size: 24px;
@@ -619,8 +629,8 @@ button:hover {
   }
   
   .text-box{
-    width: 480px;
-    height: 480px;
+    width: 500px;
+    height: 500px;
     overflow: hidden;
   }
   
@@ -630,13 +640,13 @@ button:hover {
   
   
   .pfp {
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
   }
   
   .frame {
-    width: 375px;
-    height: 375px;
+    width: 275px;
+    height: 275px;
   }
     
   .meta-welcome{
@@ -682,25 +692,21 @@ button:hover {
   .point-container p {
     font-size: 14px;
     width: 100%;
-    background: blue;
     padding-left: 1rem;
     
   }
   
   .phases-container {
-    background: red;
     width: 100%;
   }
-}
-
-@media (max-width: 400px){
-    .container{
-        
-    }
-}
-
-@media (max-width: 350px){
-    .container{
-         
-    }
+  
+  .accordion h2{
+  font-family: HK Grotesk;
+  font-size: 30px;
+  margin-bottom: 0;
+  color: white;
+  font-weight: normal;
+  padding: 1rem;
+  }
+  
 }
