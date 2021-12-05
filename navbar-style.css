@@ -13,6 +13,7 @@ body {
     display: flex;
     position: fixed;
     width: 100%;
+    
     z-index: 5;
     justify-content: space-between;
     align-items: center;
@@ -32,7 +33,12 @@ body {
     font-size: 1.5rem;
     margin: 1rem;
     margin-left: 1rem;
+    transform: scale(1);
+    transition: all 0.2ms ease-in-out;
+}
 
+.brand-title:hover {
+    transform: scale(1.1);
 }
 
 .brand-title img {
@@ -73,7 +79,7 @@ body {
     display: none;
 }
 
-.show{
+.show-button{
     display: block;
 }
 
@@ -179,8 +185,8 @@ body {
     display: none;
     flex-direction: column;
     justify-content: space-between;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
 
 .toggle-button .bar {
@@ -200,7 +206,7 @@ body {
         display: block;
     }
 
-    .show {
+    .show-button {
         display: none;
     }
 
