@@ -221,7 +221,7 @@ button:hover {
   height: 85%;
   bottom: 10vh;
   position: absolute;
-  background: url(https://cdn.glitch.me/25b6213a-d9a0-40e8-a0f3-a6a3f834a75d%2Fbanner.png?v=1638506266524) center no-repeat;
+  background: url(https://cdn.glitch.me/25b6213a-d9a0-40e8-a0f3-a6a3f834a75d%2Fcartel-hill.gif?v=1638665838034) center no-repeat;
   background-size: cover;
   background-color: #010101;
 }
@@ -427,7 +427,7 @@ button:hover {
 }
 
 /******************************************************************************
-                                    Second Masthead
+                                    Third Masthead
 ******************************************************************************/
 
 .third-mast {
@@ -439,7 +439,7 @@ button:hover {
   height: 85%;
   bottom: 10vh;
   position: absolute;
-  background: url(https://cdn.glitch.me/25b6213a-d9a0-40e8-a0f3-a6a3f834a75d%2Fbanner.png?v=1638506266524) center no-repeat;
+  background: url(https://cdn.glitch.me/25b6213a-d9a0-40e8-a0f3-a6a3f834a75d%2Fcartel-hill.gif?v=1638665838034) center no-repeat;
   background-size: cover;
   background-color: #010101;
 }
