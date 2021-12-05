@@ -600,14 +600,14 @@ button:hover {
   }
   
   .left-pane{
-    top: 0;
+    bottom: 0;
     height: 50%;
     width: 100vw;
     background: red;
   }
 
   .right-pane{
-    bottom: 0;
+    top: 0;
     height: 50%;
     width: 100vw;
     background: blue;
@@ -617,10 +617,13 @@ button:hover {
   }
   
   .text-box{
-    width: 450px;
-    height: 450px;
+    width: 480px;
+    height: 480px;
     background: green;
     overflow: hidden;
+  }
+  
+  .info-box{
     padding-left: 1rem;
   }
   
@@ -638,9 +641,18 @@ button:hover {
   .meta-welcome{
     display: flex;
     flex-direction: column;
-    height: 100vh;
     background: yellow;
   }
+  
+  .meta-welcome > .right-pane {
+    bottom: 0;
+    position: absolute;
+  }
+  
+  .meta-welcome .right-pane {
+    position: absolute;
+  }
+  
   
 }
 
