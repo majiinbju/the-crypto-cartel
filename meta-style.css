@@ -588,14 +588,20 @@ button:hover {
 
 /* Media Queries for Responsiveness */
 
-@media (max-width: 1200px){
+@media (max-width: 1000px){
+  
+  .text-box{
+    width: 600px;
+    height: 300px;
+  }
   
     .meta-welcome{
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      height: 200vh;
+      height: 100vh;
+      background: yellow;
     }
     
   .pfp {
@@ -603,14 +609,23 @@ button:hover {
     height: 250px;
   }
   
+  .frame {
+    width: 250px;
+    height: 250px;
+  }
+  
     .left-pane{
-      height: 50vh;
+      top: 0;
+      height: 50%;
       width: 100vw;
+      background: red;
     }
   
     .right-pane{
-      height: 50vh;
+      align-self: flex-end;
+      height: 50%;
       width: 100vw;
+      background: blue;
     }
 
 }
