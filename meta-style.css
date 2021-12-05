@@ -592,6 +592,7 @@ button:hover {
 
 @media (max-width: 1200px){
   
+  
   .container {
     overflow: none;
   }
@@ -706,5 +707,4 @@ button:hover {
   font-weight: normal;
   padding: 1rem;
   }
-  
 }

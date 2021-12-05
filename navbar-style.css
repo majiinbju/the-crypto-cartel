@@ -199,9 +199,10 @@ body {
 
 @media (max-width: 1200px) {
 
-    button {
-        display:none;
-    }
+  span {
+    padding: 0;
+    padding-left: 1rem;
+  }
 
     .hide {
         display: block;
