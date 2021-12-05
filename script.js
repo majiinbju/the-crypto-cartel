@@ -1,15 +1,19 @@
-var firstsec = document.getElementById('first-section');
-var secondsec = document.getElementById('about');
-var lastScrollTop = 0;
-window.onscroll = function(){
-   var st = window.pageYOffset || document.documentElement.scrollTop; 
-   if (st > lastScrollTop){
-      secondsec.scrollIntoView({behavior: "smooth"});
-   } else {
-      firstsec.scrollIntoView({behavior: "smooth"});
-   }
-   lastScrollTop = st <= 0 ? 0 : st; 
-} 
+var snapScroll = $("header, section, footer").SnapScroll({
+				hashes:true
+			});
+			console.log(snapScroll);
+
+			//Listen for active element change
+			//You could listen globally like $(document)
+			$("header").on(snapScroll.eventChangeActive, function(evt, newActive){
+				console.log(evt, newActive);
+			});
+
+			//Listen for visible element change
+			//You could listen on a specific element like $("header")
+			$(document).on(snapScroll.eventChangeVisible, function(evt, visibleList){
+				console.log(evt, visibleList.data);
+			});
 
 
 /* FAQ Function */ 
