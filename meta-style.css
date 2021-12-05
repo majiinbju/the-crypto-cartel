@@ -608,10 +608,6 @@ button:hover {
     font-size: 14px;
   }
   
-  button {
-    white-space: normal;
-  }
-  
   .footer > h2 {
     font-size: 14px;
   }
@@ -633,8 +629,7 @@ button:hover {
   
   .text-box{
     width: 500px;
-    height: 600px;
-    overflow: hidden;
+    height: 500px;
   }
   
   .info-box{
