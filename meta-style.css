@@ -213,13 +213,11 @@ button:hover {
 ******************************************************************************/
 
 .first-mast{
-  top: 7.5vh;
-  height: 92.5vh;
+  height: 100vh;
 }
 
 .first-mast .masthead{
   height: 85%;
-  bottom: 10vh;
   position: absolute;
   background: url(https://cdn.glitch.me/25b6213a-d9a0-40e8-a0f3-a6a3f834a75d%2Fcartel-hill.gif?v=1638665838034) center no-repeat;
   background-size: cover;

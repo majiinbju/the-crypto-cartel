@@ -1,31 +1,3 @@
-
-    let scene, camera, renderer;
-    function init() {
-      //create scene object
-      scene = new THREE.Scene();
-      
-      //setup camera with facing upward
-      camera = new THREE.PerspectiveCamera(60,window.innerWidth / window.innerHeight, 1, 1000);
-      camera.position.z = 1;
-      camera.rotation.x = Math.PI/2;
-      
-      //setup renderer
-      renderer = new THREE.WebGLRenderer();
-      renderer.setSize(window.innerWidth, window.innerHeight);
-      document.body.appendChild(renderer.domElement);
-      animate(); 
-    }
-
-
-    //rendering loop
-    function animate() {
-      renderer.render(scene, camera);
-      requestAnimationFrame(animate);
-    }
-    init();
-
-
-
 /* FAQ Function */ 
 
 var shows = document.querySelectorAll(".show");
@@ -49,49 +21,7 @@ for (let i = 0; i < shows.length; i++) {
 }
 
 
-/* Space Particles in the Background */
-
-var $window = $(window);
-
-$window.load(function() {
-  var dotContainer = $("#dotContainer");
-
-  dotContainer.height($window.height());
-
-  function getParticlesAnimation() {
-    i = 500,
-      dots = [];
-
-    while (--i > -1) {
-      dot = document.createElement('div');
-      dot.className = 'dot';
-      dotContainer.append(dot);
-      tween(dot);
-    }
-  }
-  
-  function tween(element) {
-    console.log("tween")
-    TweenMax.set(element, {
-        x: Math.random() * $(window).width(),
-        y: Math.random() * $(window).height(),
-        z: Math.random() * Math.PI * 100
-      });
-      TweenMax.to(element, Math.random() * 10, {
-        z: 3000,
-        onComplete:tween,
-        
-        onCompleteParams:[element]
-      });
-  }
-  
-  
-  
-  
-  getParticlesAnimation();
-
-})
-
+/* Drop-down Menu for Navbar */
 
 const toggleButton = document.getElementsByClassName('toggle-button')[0]
 const navbarLinks = document.getElementsByClassName('navbar-links')[0]
@@ -99,6 +29,8 @@ const navbarLinks = document.getElementsByClassName('navbar-links')[0]
 toggleButton.addEventListener('click', () => {
     navbarLinks.classList.toggle('active')
 })
+
+/* Smooth Scrolling */
 
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
