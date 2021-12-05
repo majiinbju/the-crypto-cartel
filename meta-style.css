@@ -583,3 +583,44 @@ button:hover {
   border-image-slice: 1;
   position:absolute;
 }
+
+
+
+/* Media Queries for Responsiveness */
+
+@media (max-width: 1200px){
+  
+    .meta-welcome{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 200vh;
+    }
+    
+  .pfp {
+    width: 250px;
+    height: 250px;
+  }
+  
+    .left-pane{
+      height: 50vh;
+      width: 100vw;
+    }
+  
+    .right-pane{
+      height: 50vh;
+      width: 100vw;
+    }
+
+}
+@media (max-width: 400px){
+    .container{
+        
+    }
+}
+@media (max-width: 350px){
+    .container{
+         
+    }
+}
