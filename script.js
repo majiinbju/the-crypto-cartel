@@ -15,12 +15,16 @@
       document.body.appendChild(renderer.domElement);
       animate(); 
     }
+
+
     //rendering loop
     function animate() {
       renderer.render(scene, camera);
       requestAnimationFrame(animate);
     }
     init();
+
+
 
 /* FAQ Function */ 
 
