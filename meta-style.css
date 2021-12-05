@@ -594,7 +594,6 @@ button:hover {
   
   .container {
     overflow: none;
-    height: 120vh;
   }
   
   .first-mast .masthead {
@@ -607,6 +606,10 @@ button:hover {
   
   span {
     font-size: 14px;
+  }
+  
+  button {
+    white-space: normal;
   }
   
   .footer > h2 {
@@ -630,7 +633,7 @@ button:hover {
   
   .text-box{
     width: 500px;
-    height: 500px;
+    height: 600px;
     overflow: hidden;
   }
   
