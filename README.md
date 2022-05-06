@@ -12,4 +12,4 @@ Welcome to the MetaVilla. The cartel comprises 8000 cartel bosses who have given
 
 ← `script.js`: Function to generate particles
 
-___Website designed and developed by Vivek Bajaj, in conjunction with Yash Kalani and Krish Sheth___
+___Website designed and developed by Vivek Bajaj___
