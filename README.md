@@ -1,15 +1,21 @@
-## 🍹 Bienvenido al Crypto Cartel! 🍹 
+## 🍹 Bienvenido al Crypto Cartel! 🍹
 
-Welcome to the MetaVilla. The cartel comprises 8000 cartel bosses who have given up the mob life after making millions off crypto *to be changed*
+## About
 
-## What's in this project?
+Welcome to the MetaVilla. The cartel comprises 8000 cartel bosses who have given up the mob life after making millions off crypto
 
-← `README.md`: Documentation for the project ✏️
+## Code + Files 🗄
 
-← `index.html`: Landing/Home page of the website, includes floating island, users will land here 🏝
+← `README.md`: Documentation of the project ✏️
 
-← `style.css`: CSS Styling for the Landing Page thus far 🎨
+← `index.html`: Built as a single page website, with one stylesheet. 📝
 
-← `script.js`: Function to generate particles
+← `assets`: Images + Typefaces + Favicon + CSS + JS 🖼
 
-___Website designed and developed by Vivek Bajaj___
+← `style.css`: Stylesheets detailing every bit of the website, arranged visually. 🌈
+
+← `script.js`: JS Functions 👾
+
+
+## ___Website designed and developed by Vivek Bajaj___
+
